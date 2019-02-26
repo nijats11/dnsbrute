@@ -26,7 +26,9 @@ def installTools(path):
      os.system('git clone {}'.format(reconngUrl))
      os.system('git clone {}'.format(altdnsUrl))
      os.system('git clone {}'.format(sublisterUrl))
-     os.system('gem install aquatone')
+     os.system('gem install aquatone') 
+     print(colored("Dont forget to configure aquatone keys", "green"))
+
 
 if __name__ == '__main__':
     path = getPath()
